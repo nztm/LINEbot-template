@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "",
-  "license": "",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "@line/bot-sdk": "^6.8.4",
     "dotenv": "^8.2.0",
