@@ -1,0 +1,12 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: weekly
+    time: "20:00"
+  open-pull-requests-limit: 99
+  ignore:
+  - dependency-name: "@line/bot-sdk"
+    versions:
+    - 7.2.0
